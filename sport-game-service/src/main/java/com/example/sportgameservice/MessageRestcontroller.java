@@ -19,6 +19,8 @@ public class MessageRestcontroller {
 
     @GetMapping("/message")
     String read() {
+
+        System.out.println("writter by me");
         return this.value;
     }
 

@@ -7,7 +7,7 @@ import org.springframework.data.repository.query.Param;
 
 import java.util.List;
 
-//@RepositoryRestResource
+
 interface SportGameRepository extends JpaRepository<SportGame, Long> {
 
 //    @RestResource(path = "by-team1")
